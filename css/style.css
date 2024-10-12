@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    color: green;
+}
+
+#main {
+    background-image: url('/assets/img/main.png');
+    height: 70vh;
+    background-position: bottom center;
+    background-size: cover;
+}
+
+.container {
+    margin: auto;
+    padding: 20px;
+    max-width: 1400px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list {
+    display: flex;
+    gap: 3em;
+    list-style: none;
+    margin: auto;
+    margin-right: 0;
+}
+
+a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: aliceblue;
+    background-color: rgb(67, 178, 67);
+    border-radius: 30px;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    color: aliceblue;
+}
+
+.heading1 {
+    font-size: 50px;
+    font-weight: 200;
+
+}
+
+.heading2 {
+    margin-top: -20px;
+    font-size: 70px;
+    font-weight: 600;
+
+}
+
+.para {
+    margin-bottom: 20px;
+    font-weight: lighter;
+
+}
+
+.btn {
+    background-color: transparent;
+    border-radius: 30px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+a:hover {
+    color: black;
+    background-color: rgb(89, 199, 89);
+}
+
+.btn:hover {
+    background-color: aliceblue;
+}
